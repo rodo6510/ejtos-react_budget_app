@@ -10,9 +10,9 @@ import Remaining from './components/Remaining';
 
 import ExpenseTotal from './components/ExpenseTotal';
 
-import ExpenseTotal from './components/ExpenseList';
+import ExpenseList from './components/ExpenseList';
 
-import ExpenseTotal from './components/ExpenseItem';
+import ExpenseItem from './components/ExpenseItem';
 
 import { AppProvider } from './context/AppContext';
 const App = () => {
