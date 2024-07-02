@@ -3,7 +3,7 @@ import { AppContext } from '../context/AppContext';
 // import ExpenseTotal from './ExpenseTotal';
 
 const Budget = () => {
-    const { currency } = useContext(AppContext);
+    const { Currency } = useContext(AppContext);
     const { budget } = useContext(AppContext);
     const [newBudget, setNewBudget] = useState(budget);
     // const [totalExpenses] = useState(ExpenseTotal);
@@ -28,7 +28,7 @@ const Budget = () => {
     }
     return (
         <div className='alert alert-secondary'>
-            <span>Budget:</span><span  style={{ marginLeft: '1rem' }}>{currency}</span><input
+            <span>Budget:</span><span  style={{ marginLeft: '1rem' }}>{Currency}</span><input
                 type="number"
                 step="10"
                 size="15"
