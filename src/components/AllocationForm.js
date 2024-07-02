@@ -11,6 +11,11 @@
                     setCost("");
                     return;
                 }
+                if(cost < remaining) {
+                    alert("Only Numbers!");
+                    setCost("");
+                    return;
+                }
             const expense = {
                 name: name,
                 cost: parseInt(cost),
