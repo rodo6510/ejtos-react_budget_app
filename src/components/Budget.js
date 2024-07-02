@@ -5,13 +5,15 @@ import ExpenseTotal from './ExpenseTotal';
 const Budget = () => {
     const { budget } = useContext(AppContext);
     const [newBudget, setNewBudget] = useState(budget);
-    const [totalExpenses] = useState(ExpenseTotal);
+    // const [totalExpenses] = useState(ExpenseTotal);
 
     const handleBudgetChange = (event) => {
             if (event.target.value >20000){
                 alert("Budget cannot increase more than 20.000!");
-            }if (event.target.value < totalExpenses){
-                alert("You cannot reduce budget value lower than he spending!");    
+            
+        //    }if (event.target.value < totalExpenses){
+        //        alert("You cannot reduce budget value lower than he spending!");    
+            
             }else{
                setNewBudget(event.target.value);   
             }

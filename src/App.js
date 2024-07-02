@@ -8,6 +8,7 @@ import ExpenseList from './components/ExpenseList';
 import AllocationForm from './components/AllocationForm';
 import RemainingBudget from './components/Remaining';
 import Currency from './components/Currency';
+// import CurrencyInput from './components/CurrencyInput';
 
 const App = () => {
     return (
