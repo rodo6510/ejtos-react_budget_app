@@ -5,6 +5,8 @@
         const [name, setName] = useState('');
         const [cost, setCost] = useState('');
         const [action, setAction] = useState('');
+        const { currency } = useContext(AppContext);
+
         const submitEvent = () => {
 
             if ( isNaN(cost) ) {
@@ -58,7 +60,7 @@
                             <option defaultValue value="Add" name="Add">Add</option>
                     <option value="Reduce" name="Reduce">Reduce</option>
                       </select>
-                      <span  style={{ marginLeft: '2rem' }}>$</span>
+                      <span  style={{ marginLeft: '2rem' }}>{currency}</span>
                       <input
                             required='required'
                             type='number'
