@@ -34,7 +34,7 @@ const Currency = () => {
         onMouseLeave={() => setIsDropdownVisible(false)}
       >
         <button className="dropdown-button" style={{ color: selectedOption ? 'white' : 'white' }}>
-          {selectedOption ? selectedOption : 'Select an option'}
+          {selectedOption ? selectedOption : 'Currency (£ Pounds)'}
         </button>
         {isDropdownVisible && (
           <div className="dropdown-content">
