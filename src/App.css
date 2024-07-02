@@ -36,36 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.green-button {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    background-color: rgb(0, 192, 0);
-    border: none;
-    border-radius: 50%;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.red-button {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 20px;
-    height: 20px;
-    background-color: rgb(255, 0, 0);
-    border: none;
-    border-radius: 50%;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-
-
